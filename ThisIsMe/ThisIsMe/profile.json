@@ -1,0 +1,11 @@
+{
+    "name": "Tiziano Bruni",
+    "role": "iOS Developer",
+    "image": "profile_img",
+    "address": "A****, 9000 *******, W1****",
+    "mobile": "+441245330883",
+    "email": "tiziano****@com",
+    "skype": "******",
+    "professional_profile": "A result-orientated mobile application developer with experience in native iOS and cross-development tools.\nFor the past years, I have been developing mobile games and commercial mobile applications in Italy and the UK. I aim to use my iOS development experience to focus on the development of commercial iOS apps to work in a UK-based Apps Company. During my last, and current role, I moved more towards a Mobile Software Engineer role wanting to expand my knowledge of Android development and back-end services.",
+    "key_skills": ["CoreData", "CoreAnimation", "TDD/BDD principles", "Kotlin Native", "Github", "Unit/UI Tests", "Swift", "SwiftUI", "SOLID principles", "TCA architecture"]
+}

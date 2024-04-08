@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		402A77942BC02355009FF272 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402A77932BC02355009FF272 /* HeaderView.swift */; };
+		402A779A2BC028D2009FF272 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402A77992BC028D2009FF272 /* Helper.swift */; };
+		402A779C2BC0292D009FF272 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402A779B2BC0292D009FF272 /* Profile.swift */; };
+		402A77A02BC03003009FF272 /* profile.json in Resources */ = {isa = PBXBuildFile; fileRef = 402A779F2BC03003009FF272 /* profile.json */; };
+		402A77A22BC0329A009FF272 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402A77A12BC0329A009FF272 /* MenuItem.swift */; };
+		402A77A42BC03A8D009FF272 /* ContactsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 402A77A32BC03A8C009FF272 /* ContactsView.swift */; };
 		403BDE0E2BADBDBA0034FAAD /* ThisIsMeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403BDE0D2BADBDBA0034FAAD /* ThisIsMeApp.swift */; };
 		403BDE102BADBDBA0034FAAD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 403BDE0F2BADBDBA0034FAAD /* ContentView.swift */; };
 		403BDE122BADBDBB0034FAAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 403BDE112BADBDBB0034FAAD /* Assets.xcassets */; };
@@ -14,6 +20,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		402A77932BC02355009FF272 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
+		402A77992BC028D2009FF272 /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		402A779B2BC0292D009FF272 /* Profile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		402A779F2BC03003009FF272 /* profile.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = profile.json; sourceTree = "<group>"; };
+		402A77A12BC0329A009FF272 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		402A77A32BC03A8C009FF272 /* ContactsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsView.swift; sourceTree = "<group>"; };
 		403BDE0A2BADBDBA0034FAAD /* ThisIsMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThisIsMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		403BDE0D2BADBDBA0034FAAD /* ThisIsMeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThisIsMeApp.swift; sourceTree = "<group>"; };
 		403BDE0F2BADBDBA0034FAAD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -53,6 +65,12 @@
 			children = (
 				403BDE0D2BADBDBA0034FAAD /* ThisIsMeApp.swift */,
 				403BDE0F2BADBDBA0034FAAD /* ContentView.swift */,
+				402A77A32BC03A8C009FF272 /* ContactsView.swift */,
+				402A77A12BC0329A009FF272 /* MenuItem.swift */,
+				402A77932BC02355009FF272 /* HeaderView.swift */,
+				402A77992BC028D2009FF272 /* Helper.swift */,
+				402A779B2BC0292D009FF272 /* Profile.swift */,
+				402A779F2BC03003009FF272 /* profile.json */,
 				403BDE112BADBDBB0034FAAD /* Assets.xcassets */,
 				403BDE132BADBDBB0034FAAD /* Preview Content */,
 			);
@@ -125,6 +143,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				402A77A02BC03003009FF272 /* profile.json in Resources */,
 				403BDE152BADBDBB0034FAAD /* Preview Assets.xcassets in Resources */,
 				403BDE122BADBDBB0034FAAD /* Assets.xcassets in Resources */,
 			);
@@ -138,7 +157,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				403BDE102BADBDBA0034FAAD /* ContentView.swift in Sources */,
+				402A779C2BC0292D009FF272 /* Profile.swift in Sources */,
+				402A77942BC02355009FF272 /* HeaderView.swift in Sources */,
+				402A77A22BC0329A009FF272 /* MenuItem.swift in Sources */,
 				403BDE0E2BADBDBA0034FAAD /* ThisIsMeApp.swift in Sources */,
+				402A779A2BC028D2009FF272 /* Helper.swift in Sources */,
+				402A77A42BC03A8D009FF272 /* ContactsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
